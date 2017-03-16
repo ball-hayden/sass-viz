@@ -15,7 +15,7 @@ for (var file in index) {
   if (index.hasOwnProperty(file)) {
     graph.addNode(cleanupFilename(file));
 
-    let imports = index[file]["imports"];
+    var imports = index[file]["imports"];
 
     imports.forEach(function(importItem) {
       graph.addEdge(cleanupFilename(file), cleanupFilename(importItem));
