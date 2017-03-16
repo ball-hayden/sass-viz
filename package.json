@@ -1,0 +1,12 @@
+{
+  "name": "sass-viz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "Hayden Ball <hayden@haydenball.me.uk>",
+  "license": "MIT",
+  "dependencies": {
+    "graphviz": "0.0.8",
+    "sass-graph": "^2.1.2"
+  }
+}
